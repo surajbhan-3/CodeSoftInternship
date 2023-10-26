@@ -1,0 +1,172 @@
+/* .main-menu{
+  border:  2px solid black;
+
+}
+
+.main-menu-wrapper{
+  border: 2px solid red;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+
+}
+.cal-outer{
+  border: 1px solid green;
+  width: 80%;
+  margin: auto;
+  height: 80vh;
+  margin-top: 15vh;
+}
+.display-data{
+   border: 1px solid yellow;
+   text-align: right;
+   padding: 1rem;
+}
+.all-symbols{
+  border: 1px solid paleturquoise;
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+}
+.all-symbols>div{
+   border: 1px solid gray;
+   text-align: center;
+   padding: 1rem;
+
+} */
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.main-menu {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.cal-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-data {
+  background-color: #444;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.all-symbols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 15px;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+button:active {
+  background-color: #444;
+}
+
+button.clear {
+  background-color: #f44336;
+}
+
+button.clear:hover {
+  background-color: #d32f2f;
+}
+
+button.clear:active {
+  background-color: #b71c1c;
+}
+
+button.equals {
+  background-color: #2196F3;
+}
+
+button.equals:hover {
+  background-color: #1976D2;
+}
+
+button.equals:active {
+  background-color: #1565C0;
+}
+
+/* Styling for the empty button (the one with no label) */
+button:empty {
+  background-color: transparent;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Additional styling for specific buttons */
+button:empty::before {
+  content: "";
+}
+
+button.e-dot {
+  background-color: #666;
+}
+
+button.e-dot:hover {
+  background-color: #777;
+}
+
+button.e-dot:active {
+  background-color: #555;
+}
+
+button:nth-child(19){
+  background-color: brown;
+  grid-column: 3 /span 2;
+  grid-row:5 ; 
+}
+
+
+button:nth-child(20){
+  background-color: brown;
+
+display: none;
+}
+button:nth-child(2){
+  background-color: brown;
+  grid-column: 2 /span 2;
+
+
+}
+
+
+button:nth-child(3){
+  background-color: brown;
+
+display: none;
+}
