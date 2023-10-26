@@ -1,0 +1,20 @@
+
+.main-menu{
+    border: 3px solid purple;
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}
+.main-menu-wrapper{
+
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.main-menu-wrapper > div{
+    width: 30%;
+    border: 1px solid pink;
+    height: 400px;
+
+}
