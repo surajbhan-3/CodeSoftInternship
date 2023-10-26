@@ -1,0 +1,26 @@
+.main-contacts{
+ 
+    /* border: 1px solid white; */
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: rgba(128, 128, 128, 0.25) 0px 54px 55px, rgba(128, 128, 128, 0.12) 0px -12px 30px, rgba(128, 128, 128, 1) 0px 4px 6px, rgba(128, 128, 128, 0.17) 0px 12px 13px, rgba(128, 128, 128, 0.09) 0px -3px 5px;
+
+}
+.contacts-content{
+    /* border: 1px solid red; */
+    margin: 20px;
+}
+
+
+.contact-form>form{
+  /* border: 1px solid green; */
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+}

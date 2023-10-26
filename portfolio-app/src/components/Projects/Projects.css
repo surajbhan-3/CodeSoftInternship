@@ -1,0 +1,158 @@
+.main-projects{
+ 
+    /* border: 1px solid white; */
+    height: auto;
+    width: 80vw;
+    margin: auto;
+    box-shadow: rgba(128, 128, 128, 0.25) 0px 54px 55px, rgba(128, 128, 128, 0.12) 0px -12px 30px, rgba(128, 128, 128, 1) 0px 4px 6px, rgba(128, 128, 128, 0.17) 0px 12px 13px, rgba(128, 128, 128, 0.09) 0px -3px 5px;
+    margin-top: 10vh;
+    background-color: black;
+    font-size: 12px;
+    border-radius: 12px;
+    
+}
+.project-content{
+    /* border: 1px solid green; */
+    margin: 20px;
+
+
+}
+.project-list{
+    /* border: 1px solid red; */
+    padding: 10px;
+
+}
+.project-list>div{
+    /* border: 1px solid white; */
+    margin: 20px;
+    
+
+}
+
+
+.mern-name{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+
+.project-type.categories{
+    display: flex;
+}
+.project-type.categories >div{
+    width: 60px;
+    font-size: 20px;
+}
+
+.project-type>div{
+    min-width: 5%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.project-title{
+    margin: 20px;  
+
+}
+.project-description{
+    margin: 20px;  
+
+}
+.project-techstack{
+    margin: 20px;  
+
+}
+.project-card{
+    /* border: 1px solid red; */
+    border: 1px solid grey;
+    border-radius: 12px;
+    height: auto;
+    margin: 10px;   
+    background:black;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+.project-title{
+   color: whitesmoke;
+}
+.deployed{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.deployed .backend-project button{
+     border-radius: 12px;
+     padding: 10px;
+     border: none;
+     /* background-color: chartreuse; */
+    
+    
+}
+.deployed .backend-project button:hover{
+    font-size: 12px;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    transition: ease-out 0.3s;
+    border-radius: 12px;
+       
+}
+
+.deployed .backend-project button:hover a{
+     color: white;
+     border-radius: 12px;
+}
+
+.deployed .frontend button{
+     padding: 10px;
+     border-radius: 12px;
+     border: none;
+}
+.deployed .frontend button:hover{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    transition: ease-out 0.3s;
+    font-size: 12px;
+}
+
+.deployed .frontend button:hover a{
+
+     color: white;
+     border-radius: 12px;
+}
+
+.deployed a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#project-type1,#project-type2, #project-type3,#project-type4,#project-type5{
+    cursor: pointer;
+}
+#project-type1:hover,#project-type2:hover, #project-type3:hover,#project-type4:hover,#project-type5:hover{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    transition: ease-out 10s;
+}
+
+.project-img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.project-img{
+    /* border: 1px solid grey; */
+     margin: 20px;  
+     background-color: white;
+     border-radius: 12px;
+     border: 1px solid grey;
+     height: 150px;
+
+   
+}

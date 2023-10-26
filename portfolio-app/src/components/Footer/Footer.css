@@ -1,0 +1,22 @@
+.main-footer{
+ 
+    border: 1px solid white;
+    height: 10vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    background-color: black;
+    border-radius: 12px;
+
+    box-shadow: rgba(128, 128, 128, 0.25) 0px 54px 55px, rgba(128, 128, 128, 0.12) 0px -12px 30px, rgba(128, 128, 128, 1) 0px 4px 6px, rgba(128, 128, 128, 0.17) 0px 12px 13px, rgba(128, 128, 128, 0.09) 0px -3px 5px;
+
+
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 25px;
+  
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Skranji', cursive;
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/13/13/55/black-2398958_1280.jpg");
+  
+}
+

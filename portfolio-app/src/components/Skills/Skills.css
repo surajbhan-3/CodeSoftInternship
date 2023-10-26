@@ -1,0 +1,87 @@
+
+.main-skills{
+ 
+    /* border: 1px solid white; */
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    background-color: black;
+    margin-top: 10vh;
+    box-shadow: rgba(128, 128, 128, 0.25) 0px 54px 55px, rgba(128, 128, 128, 0.12) 0px -12px 30px, rgba(128, 128, 128, 1) 0px 4px 6px, rgba(128, 128, 128, 0.17) 0px 12px 13px, rgba(128, 128, 128, 0.09) 0px -3px 5px;
+    border-radius: 12px;
+    
+}
+.skills-wrapper{
+    /* border: 1px solid red; */
+    margin: 20px;
+
+    
+}
+.skills-items{
+    margin: 30px;
+    /* border: 2px solid yellow; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 80px;
+    
+
+}
+.skills-items>div{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    
+}
+.innerCard1, .innerCard2,.innerCard3, .innerCard4,.innerCard5,.innerCard6,.innerCard7,.innerCard8,.innerCard9,.innerCard10,.innerCard11,.innerCard12,.innerCard13{
+    /* border: 4px solid yellowgreen; */
+   
+}
+.skills-card-img{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+.skills-card-name{
+    /* border: 1px solid white; */
+    margin-left: 15px;
+
+}
+
+.skills-card-img.js{
+    color: yellow;
+}
+.skills-card-img.html{
+    color: orangered;
+}
+.skills-card-img.css{
+    color: blue;
+}
+.skills-card-img.react{
+    color: rgb(51, 184, 194);
+}
+.skills-card-img.nodejs{
+    color: rgb(9, 163, 9);
+}
+.skills-card-img.md{
+    color: greenyellow;
+}
+.skills-card-img.ex{
+    color: yellow;
+}
+.skills-card-img.sql{
+    color: skyblue;
+}
+.skills-card-img.redux{
+    color: orangered;
+}
+.skills-card-img.netlify{
+    color: rgb(97, 118, 235);
+}
+.skills-card-img.chartjs{
+    color: palevioletred;
+}
+.skills-card-img.aws{
+    color: rgb(228, 228, 64);
+}
