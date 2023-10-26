@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+  </head>
+  <body>
+    <div class="navbar-list">
+      <h2> Task List</h2>
+      <div id="navbar">
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./dashboard.html">
+          <h2>Dashboard</h2>
+        </a>
+        <a href="./progress.html">
+          <h2>In-Progress</h2>
+        </a>
+        <a href="./done.html">
+          <h2>Done</h2>
+        </a>
+      </div>
+    </div>
+    <select id="filter">
+      <option value="">Select Priority</option>
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select>
+    <h1>Total Task:- <span id="task-count">0</span></h1>
+    <div class="table-div">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Priority</th>
+            <th>Add To Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+           <!--  rows updating  here using jsvascript -->
+        </tbody>
+      </table>
+    </div>
+  
+  </body>
+  <script src="./scripts/dashboard.js"></script>
+</html>

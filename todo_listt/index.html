@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <div class="navbar-list">
+      <h2>Task List</h2>
+      <div id="navbar">
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./dashboard.html">
+          <h2>Dashboard</h2>
+        </a>
+        <a href="./progress.html">
+          <h2>In-Progress</h2>
+        </a>
+        <a href="./done.html">
+          <h2>Done</h2>
+        </a>
+      </div>
+    </div>
+    <div id="create">
+      <h1>Create A Task</h1>
+      <form>
+        <input id="name" placeholder="Task Name" type="text" />
+        <input id="desc" placeholder="Description" type="text" />
+        <label for="">Start Date:-</label>
+        <input type="date" id="start" />
+        <label for="">End Date:-</label>
+        <input type="date" id="end" />
+        <select id="priority">
+          <option value="">Select Priority</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+  <script src="./scripts/index.js"></script>
+</html>
